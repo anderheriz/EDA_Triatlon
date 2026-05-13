@@ -24,23 +24,6 @@ El análisis final se centra en atletas profesionales y en las primeras 40 posic
 3. La variabilidad de tiempos es mayor en Ironman que en distancia olímpica.
 4. La diferencia porcentual de rendimiento entre hombres y mujeres varía según la modalidad y el segmento.
 
-## 📚Estructura del proyecto
-
-```text
-EDA_Triatlon_Ander/
-├── memoria.ipynb
-├── Eda_triatlon_presentación.pptx
-├── data/
-│   ├── triatlon_clean.csv
-│   ├── ironman_2015_2025/
-│   └── olimpica_2016_2025/
-├── notebook/
-│   ├── recopilacion_limpieza_datos.ipynb
-│   └── presentacion_EDA.ipynb
-└── codigo/
-    ├── API.py
-    └── visualizacion.py
-
 ## 📑 Archivos principales
 - codigo/API.py: descarga los resultados desde los endpoints públicos y guarda los CSV en data. Si un CSV ya existe, no lo duplica.
 notebook/recopilacion_limpieza_datos.ipynb: une CSVs, filtra profesionales, homogeneiza columnas y genera data/triatlon_clean.csv.
@@ -52,7 +35,6 @@ codigo/visualizacion.py: contiene funciones auxiliares para preparar datos y cre
 Ejecutar codigo/API.py si se quieren descargar de nuevo los datos originales.
 Ejecutar notebook/recopilacion_limpieza_datos.ipynb para regenerar los CSV combinados y el dataset limpio.
 Abrir memoria.ipynb para consultar el análisis final y las conclusiones.
-
 
 ## 📉 **Dataset final**
 
