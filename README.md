@@ -32,9 +32,9 @@ codigo/visualizacion.py: contiene funciones auxiliares para preparar datos y cre
 - Eda_triatlon_presentación.pptx: presentación final de resultados.
 
 ## Cómo ejecutar el proyecto
-Ejecutar codigo/API.py si se quieren descargar de nuevo los datos originales.
-Ejecutar notebook/recopilacion_limpieza_datos.ipynb para regenerar los CSV combinados y el dataset limpio.
-Abrir memoria.ipynb para consultar el análisis final y las conclusiones.
+- Ejecutar codigo/API.py si se quieren descargar de nuevo los datos originales.
+- Ejecutar notebook/recopilacion_limpieza_datos.ipynb para regenerar los CSV combinados y el dataset limpio.
+- Abrir memoria.ipynb para consultar el análisis final y las conclusiones.
 
 ## 📉 **Dataset final**
 
