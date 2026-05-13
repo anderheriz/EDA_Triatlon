@@ -1,4 +1,4 @@
-# EDA Triatlón: distancia olímpica vs Ironman
+# EDA Triatlón: distancia olímpica vs Ironman 🏊🚴🏃
 
 Proyecto de análisis exploratorio de datos sobre rendimiento en triatlón élite internacional. El objetivo es comparar cómo cambia el rendimiento entre la distancia Olímpica y la distancia Ironman en pruebas profesionales.
 
