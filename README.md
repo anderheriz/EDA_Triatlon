@@ -41,27 +41,31 @@ EDA_Triatlon_Ander/
     ├── API.py
     └── visualizacion.py
 
-📑 Archivos principales
-codigo/API.py: descarga los resultados desde los endpoints públicos y guarda los CSV en data. Si un CSV ya existe, no lo duplica.
+## 📑 Archivos principales
+- codigo/API.py: descarga los resultados desde los endpoints públicos y guarda los CSV en data. Si un CSV ya existe, no lo duplica.
 notebook/recopilacion_limpieza_datos.ipynb: une CSVs, filtra profesionales, homogeneiza columnas y genera data/triatlon_clean.csv.
 codigo/visualizacion.py: contiene funciones auxiliares para preparar datos y crear gráficos.
-memoria.ipynb: memoria principal del proyecto, con introducción, limpieza, análisis, visualizaciones e interpretación de hipótesis.
-Eda_triatlon_presentación.pptx: presentación final de resultados.
-Cómo ejecutar el proyecto
+- memoria.ipynb: memoria principal del proyecto, con introducción, limpieza, análisis, visualizaciones e interpretación de hipótesis.
+- Eda_triatlon_presentación.pptx: presentación final de resultados.
+
+## Cómo ejecutar el proyecto
 Ejecutar codigo/API.py si se quieren descargar de nuevo los datos originales.
 Ejecutar notebook/recopilacion_limpieza_datos.ipynb para regenerar los CSV combinados y el dataset limpio.
 Abrir memoria.ipynb para consultar el análisis final y las conclusiones.
-📉 Dataset final
-El dataset final utilizado en la memoria es:
 
-data/triatlon_clean.csv
+
+## 📉 **Dataset final**
+
+El dataset final utilizado en la memoria es:
+- data/triatlon_clean.csv
+
 Contiene 1.634 registros con resultados profesionales y primeras 40 posiciones por carrera y género.
 
-💻 Tecnologías utilizadas
-Python
-Pandas
-NumPy
-Matplotlib
-Seaborn
-Requests
-Jupyter Notebook
+## 💻 Tecnologías utilizadas
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Requests
+- Jupyter Notebook
